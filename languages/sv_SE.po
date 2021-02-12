@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2021-02-01T19:30:30+00:00\n"
-"PO-Revision-Date: 2021-02-12 13:49+0100\n"
+"PO-Revision-Date: 2021-02-12 16:01+0100\n"
 "X-Generator: Poedit 2.4.2\n"
 "X-Domain: github-updater\n"
 "Last-Translator: Erik Betshammar <info@verkan.se>\n"
@@ -60,7 +60,7 @@ msgstr "Lösenord för Bitbucket"
 
 #: src/GitHub_Updater/API/Bitbucket_API.php:418
 msgid "Bitbucket Private Repositories"
-msgstr ""
+msgstr "Privat filförvar på Bitbucket"
 
 #: src/GitHub_Updater/API/Bitbucket_API.php:449
 msgid "Bitbucket"
@@ -90,23 +90,23 @@ msgstr "Ange lösenord för Bitbucket."
 
 #: src/GitHub_Updater/API/Bitbucket_Server_API.php:367
 msgid "Bitbucket Server Private Settings"
-msgstr ""
+msgstr "Privata inställningar för Bitbucket-server"
 
 #: src/GitHub_Updater/API/Bitbucket_Server_API.php:374
 msgid "Bitbucket Server Username"
-msgstr ""
+msgstr "Användarnamn för Bitbucket-server"
 
 #: src/GitHub_Updater/API/Bitbucket_Server_API.php:386
 msgid "Bitbucket Server Password"
-msgstr ""
+msgstr "Lösenord för Bitbucket-server"
 
 #: src/GitHub_Updater/API/Bitbucket_Server_API.php:399
 msgid "Bitbucket Server Pseudo-Token"
-msgstr ""
+msgstr "Pseudotoken för Bitbucket-server"
 
 #: src/GitHub_Updater/API/Bitbucket_Server_API.php:417
 msgid "Bitbucket Server Private Repositories"
-msgstr ""
+msgstr "Privat filförvar på Bitbucket-server"
 
 #: src/GitHub_Updater/API/Bitbucket_Server_API.php:448
 msgid "Bitbucket Server"
@@ -123,7 +123,7 @@ msgstr "Privata inställningar för Gist"
 #: src/GitHub_Updater/API/Gist_API.php:360
 #: src/GitHub_Updater/API/GitHub_API.php:417
 msgid "Enter your GitHub Access Token. Leave empty for public repositories."
-msgstr ""
+msgstr "Ange din åtkomsttoken för GitHub. Lämna tomt för offentliga filförvar."
 
 #: src/GitHub_Updater/API/Gist_API.php:378
 msgid "Gist"
@@ -145,7 +145,7 @@ msgstr "Gitea"
 
 #: src/GitHub_Updater/API/Gitea_API.php:404
 msgid "Enter your repository specific Gitea Access Token."
-msgstr ""
+msgstr "Ange din filförvars-specifika åtkomsttoken för Gitea."
 
 #: src/GitHub_Updater/API/Gitea_API.php:411
 msgid "Enter your Gitea Access Token."
@@ -169,7 +169,7 @@ msgstr "Åtkomsttoken för GitHub.com"
 
 #: src/GitHub_Updater/API/GitHub_API.php:390
 msgid "GitHub Private Settings"
-msgstr ""
+msgstr "Privata inställningar för GitHub"
 
 #: src/GitHub_Updater/API/GitHub_API.php:424
 msgid ""
@@ -195,7 +195,7 @@ msgstr "Personlig åtkomsttoken för GitLab"
 
 #: src/GitHub_Updater/API/GitLab_API.php:445
 msgid "GitLab Private Settings"
-msgstr ""
+msgstr "Privata inställningar för GitLab"
 
 #: src/GitHub_Updater/API/GitLab_API.php:454
 msgid "GitLab.com Access Token"
@@ -211,7 +211,7 @@ msgstr ""
 
 #: src/GitHub_Updater/API/GitLab_API.php:505
 msgid "Enter your GitLab.com Access Token."
-msgstr ""
+msgstr "Ange din åtkomsttoken för GitLab.com."
 
 #: src/GitHub_Updater/API/GitLab_API.php:516
 msgid "GitLab Access Token"
@@ -223,11 +223,11 @@ msgstr ""
 
 #: src/GitHub_Updater/API/GitLab_API.php:575
 msgid "You must set a GitLab Access Token."
-msgstr ""
+msgstr "Du måste ange en åtkomsttoken för GitLab."
 
 #: src/GitHub_Updater/API/Zipfile_API.php:36
 msgid "Zipfile Slug"
-msgstr ""
+msgstr "Slug för Zipfile"
 
 #: src/GitHub_Updater/API/Zipfile_API.php:52
 msgid "Enter plugin or theme slug."
@@ -236,7 +236,7 @@ msgstr "Ange slug för tillägg eller tema."
 #. translators: 1: branch name, 2: jQuery dropdown, 3: closing tag
 #: src/GitHub_Updater/Base.php:627 src/GitHub_Updater/Theme.php:607
 msgid "Current branch is `%1$s`, try %2$sanother version%3$s"
-msgstr ""
+msgstr "Nuvarande gren är ”%1$s”, prova %2$sen annan version%3$s"
 
 #: src/GitHub_Updater/Base.php:651
 msgid "Switch to branch "
@@ -261,11 +261,11 @@ msgstr "Installera tillägg"
 
 #: src/GitHub_Updater/Install.php:107 src/GitHub_Updater/Install.php:374
 msgid "Install Theme"
-msgstr "Installera Tema"
+msgstr "Installera tema"
 
 #: src/GitHub_Updater/Install.php:163
 msgid "A repository URI is required."
-msgstr ""
+msgstr "En URI för filförvaret krävs."
 
 #: src/GitHub_Updater/Install.php:391
 msgid "Plugin"
@@ -295,11 +295,11 @@ msgstr ""
 
 #: src/GitHub_Updater/Install.php:465
 msgid "URI is case sensitive."
-msgstr ""
+msgstr "URI är skiftlägeskänslig."
 
 #: src/GitHub_Updater/Install.php:480
 msgid "Enter branch name or leave empty for `master`"
-msgstr ""
+msgstr "Ange grennamn eller lämna tomt för ”master”"
 
 #: src/GitHub_Updater/Install.php:530
 msgid "Activate"
@@ -313,7 +313,7 @@ msgstr "Aktivera för nätverk"
 #: src/GitHub_Updater/Messages.php:113 src/GitHub_Updater/Messages.php:154
 #: src/GitHub_Updater/Messages.php:174
 msgid "GitHub Updater Error Code:"
-msgstr ""
+msgstr "”GitHub Updater”-felkod:"
 
 #. translators: %s: wait time
 #: src/GitHub_Updater/Messages.php:120
@@ -368,7 +368,7 @@ msgstr ""
 #. translators: 1: home URL, 2: REST API key
 #: src/GitHub_Updater/Remote_Management.php:230
 msgid "Site URL: %1$s<br> REST API key: %2$s"
-msgstr ""
+msgstr "Webbplats-URL: %1$s<br> REST API-nyckel: %2$s"
 
 #. translators: 1: Link to wiki, 2: RESTful API URL
 #: src/GitHub_Updater/Remote_Management.php:241
@@ -379,7 +379,7 @@ msgstr ""
 
 #: src/GitHub_Updater/Settings.php:139 src/GitHub_Updater/Settings.php:760
 msgid "Settings"
-msgstr ""
+msgstr "Inställningar"
 
 #: src/GitHub_Updater/Settings.php:196 src/GitHub_Updater/Settings.php:341
 msgid "GitHub Updater Settings"
@@ -388,7 +388,7 @@ msgstr "”GitHub Updater”-inställningar"
 #: src/GitHub_Updater/Settings.php:197
 msgctxt "Menu item"
 msgid "GitHub Updater"
-msgstr ""
+msgstr "GitHub Updater"
 
 #: src/GitHub_Updater/Settings.php:274
 msgid "Refresh Cache"
@@ -400,7 +400,7 @@ msgstr "Inställningar sparade."
 
 #: src/GitHub_Updater/Settings.php:309
 msgid "RESTful key reset."
-msgstr ""
+msgstr "API-nyckel för REST återställd."
 
 #: src/GitHub_Updater/Settings.php:311
 msgid "Cache refreshed."
@@ -408,7 +408,7 @@ msgstr "Cache uppdaterad."
 
 #: src/GitHub_Updater/Settings.php:354
 msgid "Enable Branch Switching"
-msgstr ""
+msgstr "Aktivera växling av grenar"
 
 #: src/GitHub_Updater/Settings.php:366
 msgid "Bypass WP-Cron Background Processing for Debugging"
@@ -422,17 +422,19 @@ msgstr ""
 
 #: src/GitHub_Updater/Settings.php:578
 msgid "Overridden Plugins and Themes"
-msgstr ""
+msgstr "Åsidosatta tillägg och teman"
 
 #: src/GitHub_Updater/Settings.php:579
 msgid ""
 "The following plugins or themes might exist on wp.org, but any updates will "
 "be downloaded from their respective git repositories."
 msgstr ""
+"Följande tillägg eller teman kan finnas på wp.org, men eventuella "
+"uppdateringar kommer att laddas ner från deras respektive git-filförvar."
 
 #: src/GitHub_Updater/Settings.php:794
 msgid "This is a private repository."
-msgstr ""
+msgstr "Det här är ett privat filförvar."
 
 #: src/GitHub_Updater/Settings.php:795
 msgid "This repository has not connected to the API or was unable to connect."
@@ -440,7 +442,7 @@ msgstr ""
 
 #: src/GitHub_Updater/Settings.php:796
 msgid "This repository is hosted on WordPress.org."
-msgstr ""
+msgstr "Detta filförvar lagras på WordPress.org."
 
 #: src/GitHub_Updater/Settings.php:833
 msgid "Installed Plugins and Themes"
